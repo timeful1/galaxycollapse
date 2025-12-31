@@ -5,7 +5,8 @@ export default function handler(req, res) {
       Location: 'https://timeful.neocities.org/ggss.png',
     });
   } else {
-    res.writeHead(302, { Location: 'quaver://mapset/34529' });
+    res.writeHead(302, { Location: 'quaver://mapset/14680' });
   }
   res.end();
 }
+
